@@ -12,12 +12,12 @@ header {
     display: flex;
     background-color: #eeb5ce;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
+    height: 150px;
 }
 
 #logo-titulo{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
@@ -26,6 +26,7 @@ header {
 #titulo-header {
     display: flex;
     font-size: 30px;
+    color: #f476ad;
 }
 
 
@@ -63,7 +64,7 @@ li {
 }
 
 #logo-header img {
-    width: 200px;
+    width: 150px;
     padding: 20px;
 }
 
@@ -96,5 +97,30 @@ li {
 #vendidos {
     padding: 20px;
     font-size: 20px;
-    color:#f089b6
+    color:#f089b6;
+}
+
+#galeria-imgs1 {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card1 {
+    background-color: white;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.card1 img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card1-texto {
+    padding: 10px;
+    text-align: center;
 }
